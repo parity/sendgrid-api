@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'sendgrid/api/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sendgrid-api"
+  spec.name          = "parity-sendgrid-api"
   spec.version       = Sendgrid::API::VERSION
-  spec.authors       = ["Renato Neves"]
-  spec.email         = ["renatosnrg@gmail.com"]
+  spec.authors       = ["Jimish Jobanputra, Hardik Gondaliya"]
+  spec.email         = ["jimish@desidime.com"]
   spec.description   = %q{A Ruby interface to the SendGrid API}
   spec.summary       = %q{A Ruby interface to the SendGrid API}
   spec.homepage      = ""
