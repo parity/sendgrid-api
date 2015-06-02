@@ -5,7 +5,7 @@ module Sendgrid
     module Entities
       class Email < Entity
 
-        attribute :email, :name
+        attribute :email, :name, :unsubscribe_code, :username
 
       end
     end
